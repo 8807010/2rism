@@ -1,3 +1,93 @@
 <header class="header">
-  <div class="container"></div>
+  <div class="container container--header">
+
+    <nav class="nav">
+      <a href="#!" class="logo">
+        <img src="./img/logo/logo.svg" alt="2Rism" />
+      </a>
+
+      <ul class="nav-list list-reset">
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link nav-list__link--active">home</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">hotels</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">restaurants</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">tours</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">destinations</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">activities</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">contact</a>
+        </li>
+      </ul>
+
+      <div class="user">
+        <div class="user__content">
+          <span class="user__greeting">Holla,</span>
+          <span class="user__name">Ales Nesetril</span>
+        </div>
+        <div class="user__avatar">
+          <img class="user__img" src="./img/header/user.jpg" alt="Avatar">
+        </div>
+      </div>
+    </nav>
+
+    <div class="header__content">
+      <h1 class="header__title">
+        Discover the most engaging places
+      </h1>
+      <button class="button button--huge">
+        <img src="./img/icons/global.svg" alt="">
+        Discover on 3D Globe
+      </button>
+    </div>
+
+    <form action="" class="form">
+
+      <div class="form__input-wrapper form__input--location">
+        <label for="location" class="form__label">Location</label>
+        <input autocomplete="off" type="text" class="form__input" id="location"
+          placeholder="Explore nearby destinations">
+      </div>
+
+      <div class="form__input-wrapper form__input--activity">
+        <label for="activity" class="form__label">Activity</label>
+        <select name="activity" id="activity" class="form__select">
+          <option value="all">All Activities</option>
+          <option value="Culture">Culture</option>
+          <option value="Sport">Sport</option>
+          <option value="Extreme">Extreme</option>
+        </select>
+      </div>
+
+      <div class="form__input-wrapper form__input--date">
+        <label for="date" class="form__label">When</label>
+        <input type="text" class="form__input" id="date" placeholder="Choose a Date">
+      </div>
+
+      <div class="form__input-wrapper form__input--guests">
+        <label for="location" class="form__label">Guests</label>
+        <select name="" id="" class="form__select">
+          <option value="">1 guest</option>
+          <option value="">2 guest</option>
+          <option value="">3 guest</option>
+          <option value="">4 guests or more</option>
+        </select>
+      </div>
+
+      <button class="button button--search">
+        <img src="./img/icons/search.svg" alt="Search">
+      </button>
+    </form>
+
+  </div>
 </header>

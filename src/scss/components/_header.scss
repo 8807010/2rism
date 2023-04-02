@@ -1,0 +1,28 @@
+.header {
+  padding: 31px 0 100px;
+  height: 800px;
+  color: #fff;
+  background-color: black;
+  background-image: url('./../img/header/header-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0 0 54px 54px;
+
+  & a {
+    color: #fff;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.3;
+  }
+}
