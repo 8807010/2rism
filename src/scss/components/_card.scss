@@ -12,17 +12,27 @@
   &__img {
     border-radius: 12px;
     margin-bottom: 8px;
+
+    &--activities {
+      margin-bottom: 16px;
+    }
+
+    &--hotel {
+      margin-bottom: 10px;
+    }
   }
 
-  &__img--hotel {
-    margin-bottom: 10px;
-  }
+
 
   &__title {
     color: #161414;
     font-size: 16px;
     font-weight: 500;
     margin: 0;
+
+    &--hotel {
+      margin-bottom: 12px;
+    }
   }
 
   &__location {
@@ -42,5 +52,17 @@
       background-position: 0px 1px;
       background-image: url('./../img/icons/map-pin-line.svg');
     }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
   }
 }
