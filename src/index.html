@@ -4,11 +4,68 @@
 @include('partials/head.html')
 
 <body class="page__body">
-
   @include('partials/header.html')
+
+  <main class="main">
+
+    <!-- Popular -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="title-1">Popular Destinations</h2>
+        </div>
+        <div class="section__cards section__cards--popular">
+
+          <article class="card">
+            <a href="#!" class="card__link"></a>
+            <img class="card__img" src="./img/popular/01.jpg" alt="Big Sur">
+            <h3 class="card__title">Big Sur</h3>
+            <a href="#california" class="card__location">California, USA</a>
+          </article>
+
+          <article class="card">
+            <a href="#!" class="card__link"></a>
+            <img class="card__img" src="./img/popular/02.jpg" alt="Prescot">
+            <h3 class="card__title">Prescott</h3>
+            <a href="#california" class="card__location">Arizona, USA</a>
+          </article>
+
+          <article class="card">
+            <a href="#!" class="card__link"></a>
+            <img class="card__img" src="./img/popular/03.jpg" alt="Fort Mayers">
+            <h3 class="card__title">Fort Mayers</h3>
+            <a href="#california" class="card__location">Florida, USA</a>
+          </article>
+
+          <article class="card">
+            <a href="#!" class="card__link"></a>
+            <img class="card__img" src="./img/popular/04.jpg" alt="Tucson">
+            <h3 class="card__title">Tucson</h3>
+            <a href="#california" class="card__location">Arizona, USA</a>
+          </article>
+
+          <article class="card">
+            <a href="#!" class="card__link"></a>
+            <img class="card__img" src="./img/popular/05.jpg" alt="St. Joseph">
+            <h3 class="card__title">St. Joseph</h3>
+            <a href="#california" class="card__location">Michigan, USA</a>
+          </article>
+
+          <article class="card">
+            <a href="#!" class="card__link"></a>
+            <img class="card__img" src="./img/popular/06.jpg" alt="Madrid">
+            <h3 class="card__title">Madrid</h3>
+            <a href="#california" class="card__location">Spain</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
   @include('partials/footer.html')
-
-
 </body>
 
 </html>

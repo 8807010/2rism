@@ -115,6 +115,16 @@ a {
   position: relative;
 }
 
-.container .show {
-  top: 165px !important;
+.title-1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #161414;
+  margin: 0;
+}
+
+.main {
+  padding: 120px 0;
+  display: grid;
+  gap: 120px;
 }

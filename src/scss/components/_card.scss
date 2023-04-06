@@ -1,0 +1,46 @@
+.card {
+  position: relative;
+
+  &__link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__img {
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+
+  &__img--hotel {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    color: #161414;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  &__location {
+    position: relative;
+    z-index: 1;
+    color: #979797;
+    font-size: 13px;
+
+
+    &:hover {
+      color: #7b61ff;
+    }
+
+    &--icon {
+      padding-left: 20px;
+      background-repeat: no-repeat;
+      background-position: 0px 1px;
+      background-image: url('./../img/icons/map-pin-line.svg');
+    }
+  }
+}
