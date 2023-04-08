@@ -1,6 +1,5 @@
 import autoComplete from './../vendor/autoComplete/autoComplete.min';
 
-
 const countryList = [
   'Afghanistan',
   'Albania',
