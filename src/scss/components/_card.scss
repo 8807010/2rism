@@ -26,6 +26,10 @@
     overflow: hidden;
     border-radius: 12px;
     font-size: 0;
+
+    &--no-margin {
+      margin: 0;
+    }
   }
 
   &__img img {
@@ -45,10 +49,6 @@
     &--h100 {
       height: 100%;
     }
-
-    &--no-margin {
-      margin: 0;
-    }
   }
 
   &__title {
@@ -56,6 +56,8 @@
     font-size: 16px;
     font-weight: 500;
     margin: 0;
+    line-height: 1.5;
+    /* 24/16 */
 
     &--hotel {
       margin-bottom: 12px;
@@ -143,7 +145,3 @@
     margin: 0;
   }
 }
-
-// .card:hover .card__img {
-//   transform: scale(1.2);
-// }

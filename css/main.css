@@ -422,6 +422,9 @@ a {
   border-radius: 12px;
   font-size: 0;
 }
+.card__img--no-margin {
+  margin: 0;
+}
 .card__img img {
   border-radius: 12px;
   object-fit: cover;
@@ -437,14 +440,13 @@ a {
 .card__img img--h100 {
   height: 100%;
 }
-.card__img img--no-margin {
-  margin: 0;
-}
 .card__title {
   color: #161414;
   font-size: 16px;
   font-weight: 500;
   margin: 0;
+  line-height: 1.5;
+  /* 24/16 */
 }
 .card__title--hotel {
   margin-bottom: 12px;
