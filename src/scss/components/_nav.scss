@@ -13,10 +13,40 @@
   text-transform: capitalize;
 
   &__link {
+    transition: opacity 0.3s ease-in-out;
     opacity: 0.7;
+    position: relative;
 
-    &--active {
+    &::after {
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: #fff;
+      content: "";
+      transition: width 0.3s ease-out, opacity 0.3s ease-out;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    @include hover {
+      opacity: 1;
+
+      &::after {
+        width: 100%;
+      }
+    }
+
+    &:active {
       opacity: 1;
     }
   }
+}
+
+.nav-list__link.focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 3px;
 }
