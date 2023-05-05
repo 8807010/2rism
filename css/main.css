@@ -678,6 +678,34 @@ a {
   font-size: 18px;
   font-weight: 500;
 }
+.footer__btn-to-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #7b61ff;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 35px;
+  right: 70px;
+  z-index: 1;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out, background-color 0.3s ease-in-out;
+  opacity: 0;
+}
+.footer__btn-to-top:hover {
+  background-color: #6344ff;
+}
+.footer__btn-to-top svg {
+  transform: rotate(270deg);
+}
+.footer__btn-to-top svg:hover {
+  height: 32px;
+}
+
+.shown {
+  opacity: 1;
+}
 
 .subscribe {
   display: flex;
