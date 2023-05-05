@@ -25,6 +25,7 @@
 /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable value-keyword-case */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
