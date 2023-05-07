@@ -1,20 +1,20 @@
-let btnToTop = document.querySelector('.footer__btn-to-top');
-let page = window.innerWidth;
+const btnToTop = document.querySelector('.footer__btn-to-top');
+const page = window.innerWidth;
+const viewportHeight = window.innerHeight;
 
 btnToTop.onclick = function () {
   window.scrollTo(0, 0);
 };
 
 // window.onscroll = function () {
-//   if (window.pageYOffset > 200) {
+//   if (window.pageYOffset >= viewportHeight) {
 //     btnToTop.classList.add('shown');
-//   } else if (page <= 768 && btnToTop.contains.classList('shown')) {
+//   } else if (btnToTop.classList.contains('shown') && page <= 768) {
 //     btnToTop.classList.remove('shown');
 //   } else {
 //     btnToTop.classList.remove('shown');
 //   };
 // };
-
 
 window.onscroll = function () {
   if (window.pageYOffset > 200) {
