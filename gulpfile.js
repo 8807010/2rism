@@ -56,6 +56,15 @@ const clean = () => {
   return del([buildFolder])
 }
 
+//deploy
+const gulp = require('gulp');
+const ghPages = require('gulp-gh-pages');
+
+gulp.task('deploy', function () {
+  return gulp.src('./app/**/*')
+    .pipe(ghPages());
+});
+
 //svg sprite
 const svgSprites = () => {
   return src(paths.srcSvg)
@@ -267,8 +276,8 @@ const watchFiles = () => {
 
 const cache = () => {
   return src(`${buildFolder}/**/*.{css,js,svg,png,jpg,jpeg,webp,woff2}`, {
-      base: buildFolder
-    })
+    base: buildFolder
+  })
     .pipe(rev())
     .pipe(revDel())
     .pipe(dest(buildFolder))
