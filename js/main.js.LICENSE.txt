@@ -1,0 +1,9 @@
+/**
+* @license
+* Package: @easepick/bundle
+* Version: 1.2.1
+* https://easepick.com/
+* Copyright 2023 Rinat G.
+*
+* Licensed under the terms of GNU General Public License Version 2 or later. (http://www.gnu.org/licenses/gpl.html)
+*/
